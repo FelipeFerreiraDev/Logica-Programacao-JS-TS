@@ -26,3 +26,16 @@ console.log(umaString.lastIndexOf('Um'));
 
 // Retornar letras minusculas
 console.log(umaString.match(/[a-z]/g)); // Usando expressão regular
+
+// Tamanho de uma string
+console.log(umaString.length);
+
+// Fatiar string
+console.log(umaString.slice(2, 6));
+
+// Dividir string
+console.log(umaString.split(' '));
+
+// Transformar em Maiuscula e minuscula
+console.log(umaString.toUpperCase());
+console.log(umaString.toLowerCase());
