@@ -1,0 +1,6 @@
+// Comentário
+
+/* Comentario 
+*  multi 
+*  linha
+*/
