@@ -2,7 +2,7 @@
 // IEEE 754 - 2008
 // Sendo assim temos uma imprecisão muito pequena mais existe
 // Ela sempre deve ser tratada sem usar o toFixed pois o programa
-// ainda vai reconhecer o número como um quebrado
+// ainda vai reconhecer o número como um não inteiro
 
 let num1 = 0.7;
 let num2 = 0.1;
