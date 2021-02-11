@@ -1,4 +1,4 @@
-/**
+/*
  * Operadores de comparação
  * > maior 
  * >= maior ou igual
