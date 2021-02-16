@@ -79,7 +79,8 @@ function organiza() {
             break;
     }
 
-    return resposta.innerHTML = `<p>${semana}, ${dia} de ${mes} de ${ano} ${hora}:${min}</p>`
+    
+    return resposta.innerHTML = `<p>${semana}, ${dia} de ${mes} de ${ano} ${hora}:${min<10 ? '0'+min : min}</p>`
 
 
 }
