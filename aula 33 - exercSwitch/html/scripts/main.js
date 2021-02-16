@@ -81,8 +81,9 @@ function organiza() {
 
     
     return resposta.innerHTML = `<p>${semana}, ${dia} de ${mes} de ${ano} ${hora}:${min<10 ? '0'+min : min}</p>`
-
-
 }
+
+// Poderia se utilizar de outra maneira como por exemplo
+// data.toLocaleDateString('pt-BR', { dateStyle: 'Full', timeStyle: 'short'});
 
 organiza();
