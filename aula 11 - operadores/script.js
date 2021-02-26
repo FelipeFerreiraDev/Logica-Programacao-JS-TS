@@ -16,8 +16,6 @@
  * * / %
  * + -
  * 
- * 
- * 
  * Contadores/Atribuição ------- Sempre serão LET --------
  * 
  * incremento
