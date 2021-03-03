@@ -24,6 +24,34 @@ maior(n1, n2);
 const altura = 250;
 const largura = 500;
 
-ePaisagem = () => console.log(largura>altura);
+ePaisagem = () => console.log(largura > altura);
 
 ePaisagem();
+
+/**
+ * Escreva uma função que recebe um número e
+ * retorn o seguinte:
+ * Número é divisivel por 3 = Fizz
+ * Número é divisivel por 5 = Buzz
+ * Número é divisivel por 3 e 5 = Retorna o número
+ * Checar se o número é realmente um número
+ * Use a função com números de 0 a 100
+ */
+
+function numero(n) {
+    if (typeof n !== 'number') {
+        return 'Não é um número';
+    } else if (n % 3 === 0 && n % 5 === 0 && n !== 0) {
+        return n;
+    } else if (n % 3 === 0 && n !== 0) {
+        return 'Fizz';
+    } else if (n % 5 === 0 && n !== 0) {
+        return 'Buzz';
+    } else {
+        return 'Não é divisivel'
+    }
+}
+
+for (let i = 0; i <= 100; i++) {
+    console.log(i, '= ', numero(i));
+}
