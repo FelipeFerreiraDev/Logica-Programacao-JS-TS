@@ -14,3 +14,16 @@ function maior(x, y) {
 }
 
 maior(n1, n2);
+
+/**
+ * Escreva uma função ePaisagem que recebe dois argumentos
+ * larura e altura de uma imagem(number).
+ * retorne true se a imagem estiver no modo paisagem
+ */
+
+const altura = 250;
+const largura = 500;
+
+ePaisagem = () => console.log(largura>altura);
+
+ePaisagem();
