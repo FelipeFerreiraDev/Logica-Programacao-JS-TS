@@ -1,3 +1,5 @@
+// Retorne o array com pares de uma condição
+
 const numeros = [5, 50, 80, 1, 2, 3, 4, 11, 15, 22];
 
 function callbackFilter(valor, indice, array) {
